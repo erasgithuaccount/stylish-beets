@@ -1,77 +1,79 @@
 html {
   box-sizing: border-box;
-}
-
-*, *::before, *::after {
-  box-sizing: inherit;
-}
-
-body {
-  font-family: "PT Serif", serif;
-  font-size: 1.125rem;
-  font-weight: normal;
   background-color: #c9b5ab;
   line-height: 1.5;
 }
-
+*, *::before, *::after {
+  box-sizing: inherit;
+}
 h1, h2 {
-  font-family: "PT Sans", sans-serif;
   font-size: 1.5rem;
+  font-family: "PT Sans", sans-serif;
   color: #3f1622;
 }
-
-nav ol {
-  list-style-type: none;
+nav {
+  font-size: 1.125rem;
   font-family: "PT Sans", sans-serif;
+  font-weight: bold;
+}
+nav ol {
+  font-family: "PT Sans", sans-serif;
+  font-size: 1.125rem;
+  list-style-type: none;
 }
 
 a {
-  text-decoration: none;
   color: #8f2440;
+  font-size: 1.125rem;
+  font-family: "PT Sans", sans-serif;
+  text-decoration: none;
 }
-
 a:hover {
   color: #3f1622;
   text-decoration: underline;
 }
-
 img {
   width: 100%;
 }
-
 figcaption {
+  font-family: "PT Serif", serif;
+  font-size: .8rem;
   font-style: italic;
   text-align: center;
-  font-size: .8rem;
 }
-
-figure + p {
+.bold {
   font-weight: bold;
+  font-size: 1rem;
+  font-family: "PT Serif", serif;
 }
-
-blockquote {
-  font-size: 1.5rem;
+blockquote p {
   font-style: italic;
+  font-size: 1.5rem;
+  font-family: "PT Serif", serif;
 }
-
-footer {
-  font-style: normal;
+blockquote footer {
   font-size: .8rem;
 }
-
-ol {
-  list-style-type: lower-greek;
+strong {
+  font-weight: normal;
 }
-
-main p:last-of-type {
+h2 + p {
   font-style: italic;
 }
-
 dt {
   font-weight: bold;
 }
-
 ul {
   list-style-type: circle;
   font-size: .8rem;
+}
+footer {
+  font-size: .8rem;
+}
+footer a {
+  color: #8f2440;
+}
+footer a:hover {
+  color: #3f1622;
+  text-decoration: underline;
 }
