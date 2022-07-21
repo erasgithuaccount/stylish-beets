@@ -55,7 +55,6 @@ blockquote footer {
   font-size: .8rem;
 }
 
-h2+ol {
 h2 + ol {
   list-style-type: lower-greek;
 }
@@ -64,7 +63,6 @@ dl dt {
   font-weight: bold;
 }
 
-aside h2+ul {
 aside h2 + ul {
   font-size: .8rem;
   list-style-type: circle;
