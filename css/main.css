@@ -7,38 +7,29 @@ html {
 }
 
 body {
-  background-color: #c9b5ab;
-  color: #222;
   font-family: "PT Serif", serif;
+  font-size: 1.125rem;
+  font-weight: normal;
+  background-color: #c9b5ab;
   line-height: 1.5;
 }
 
-h1, h2, h3 {
-  color: #3f1622;
-  font-style: normal;
+h1, h2 {
   font-family: "PT Sans", sans-serif;
-}
-
-h1 {
   font-size: 1.5rem;
+  color: #3f1622;
 }
 
-nav ol li {
+nav ol {
   list-style-type: none;
-}
-
-a {
-  color: #8f2440;
   font-family: "PT Sans", sans-serif;
-  font-size: 1.125rem;
-  font-weight: bold;
-  text-decoration: none;
 }
-
+a {
+  text-decoration: none;
+  color: #8f2440;
+}
 a:hover {
   color: #3f1622;
-  font-family: "PT Sans", sans-serif;
-  font-weight: bold;
   text-decoration: underline;
 }
 
@@ -47,42 +38,37 @@ img {
 }
 
 figcaption {
+  font-style: italic;
   text-align: center;
+  font-size: .8rem;
 }
 
-.harvest {
-  font-size: 1.125rem;
+figure + p {
   font-weight: bold;
 }
-
-blockquote p {
+blockquote {
   font-size: 1.5rem;
   font-style: italic;
 }
 
-blockquote p strong {
-  font-weight: normal;
-}
-
-blockquote footer {
+footer {
+  font-style: normal;
   font-size: .8rem;
 }
 
-h2 + ol {
+ol {
   list-style-type: lower-greek;
 }
 
-dl dt {
+main p:last-of-type {
+  font-style: italic;
+}
+
+dt {
   font-weight: bold;
 }
 
-aside h2 + ul {
-  font-size: .8rem;
+ul {
   list-style-type: circle;
-}
-
-footer small a {
-  font-family: "PT Serif", serif;
   font-size: .8rem;
-  font-weight: 100;
 }
